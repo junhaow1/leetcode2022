@@ -35,7 +35,7 @@ public class Main {
             System.err.format("Input file: failed reading %s%n", x);
         }
 
-        // TEST
+        // TEST kev
         for (PasswordContainer p : arr) {
             long count = p.stringC.chars().filter(ch -> ch == p.checkC).count();
             if (count >= p.minC && count <= p.maxC) validPasswords++;
